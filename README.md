@@ -1,6 +1,6 @@
 # healthcare-ML-API
 
-url: <br>
+URL: https://healthcaregp.herokuapp.com/<br>
 endpoint: "/data": <br>
 
 ## <b>_POST_<b> request:
