@@ -1,5 +1,9 @@
 # healthcare-ML-API
 
+## API Documentation
+
+[API Documentation](https://healthcaregp.herokuapp.com/docs)
+
 URL: https://healthcaregp.herokuapp.com/<br>
 endpoint: "/data": <br>
 

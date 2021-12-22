@@ -27,8 +27,6 @@ def post_data( data: DeviceData):
 
 @app.get('/data')
 def get_data():
-    list = []
-    for doc in deviceDataCollection.find({}, {"_id": 0}):
-        list.append(doc)
-    return list
+    return list(deviceDataCollection.find({}, {"_id": 0}))
+
 
