@@ -14,7 +14,7 @@ deviceDataCollection = db["deviceData"]
 
 
 class DeviceData(BaseModel):
-    id: str
+    id: float
     heartRate: float
     spo2: float
     temp: float
