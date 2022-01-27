@@ -36,3 +36,9 @@ def post_data(data: DeviceData):
 @app.get('/data')
 def get_data():
     return list(deviceDataCollection.find({}, {"_id": 0}))
+
+
+@app.delete('/data')
+def delete_data():
+    deviceDataCollection.delete_many({})
+    return {"message": "All data deleted"}
