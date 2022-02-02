@@ -15,7 +15,7 @@ endpoint: "/data": <br>
   heartRate: float;
   spo2: float;
   temp: float;
-  ESG: List / Array;
+  ECG: List / Array;
   GPS: List / Array;
 }
 ```
