@@ -18,7 +18,7 @@ class DeviceData(BaseModel):
     heartRate: float
     spo2: float
     temp: float
-    ESG: list
+    ECG: list
     GPS: list
 
 
